@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Display Pod Number
+      debug:
+        msg: "{{ Pod.Number }}"
+
+    - name: Display Deploy.Product.Router
+      debug:
+        msg: "{{ Deploy.Product.Router }}"
+
